@@ -85,71 +85,15 @@ earlier images.**
 
 **Intrinsic parameters for the given dataset:**
 
-1.  Linear least-squares (LLS):
-
-$$K = \\begin{bmatrix}
-723.4997 & 1.4841 & 235.2641 \\\\
-0 & 722.1189 & 319.4149 \\\\
-0 & 0 & 1 \\\\
-\\end{bmatrix}$$
-
-2.  LM algorithm refined without radial distortion:
-
-$$K = \\begin{bmatrix}
-874.0656 & 1.5920 & 320.1941 \\\\
-0 & 874.1790 & 233.8322 \\\\
-0 & 0 & 1 \\\\
-\\end{bmatrix}$$
-
-3.  LM algorithm refined with radial distortion:
-
-k1 = -0.17704
-
-k2 = 0.59277
-
-$$K = \\begin{bmatrix}
-878.0351 & 1.6382 & 318.6801 \\\\
-0 & 878.6688 & 232.2903 \\\\
-0 & 0 & 1 \\\\
-\\end{bmatrix}$$
+<img src="media\image11.png" style="width:6.5in;height:3.97292in" alt="Text Description automatically generated" />
 
 **Extrinsic parameters for the given dataset:**
 
-1.  Image 9 using LLS and LM:
-
-$$\\left\\lbrack R\_{9}\|{\\overrightarrow{t}}\_{9} \\right\\rbrack\_{\\text{LLS}} = \\begin{bmatrix}
-0.8840 & - 0.1378 & 0.4467 & 19.5082 \\\\
- - 0.1261 & 0.8498 & 0.5118 & - 170.1235 \\\\
- - 0.4502 & - 0.5088 & 0.7388 & 633.9512 \\\\
-\\end{bmatrix}$$
-
-$$\\left\\lbrack R\_{9}\|{\\overrightarrow{t}}\_{9} \\right\\rbrack\_{\\text{LM}} = \\begin{bmatrix}
-0.8886 & - 0.0882 & 0.4844 & - 52.3874 \\\\
- - 0.1761 & 0.8409 & 0.5548 & - 88.8184 \\\\
- - 0.4598 & - 0.5754 & 0.7314 & 709.3040 \\\\
-\\end{bmatrix}$$
-
-2.  Image 12 using LLS and LM:
-
-$$\\left\\lbrack R\_{12}\|{\\overrightarrow{t}}\_{12} \\right\\rbrack\_{\\text{LLS}} = \\begin{bmatrix}
-0.9036 & 0.2036 & - 0.3769 & - 4.6823 \\\\
- - 0.0307 & 0.9083 & 0.4171 & - 170.1357 \\\\
- - 0.4273 & - 0.3653 & 0.8270 & 511.4145 \\\\
-\\end{bmatrix}$$
-
-$$\\left\\lbrack R\_{12}\|{\\overrightarrow{t}}\_{12} \\right\\rbrack\_{\\text{LM}} = \\begin{bmatrix}
-0.8869 & 0.2216 & - 0.4653 & - 68.6000 \\\\
- - 0.0140 & 0.8931 & 0.5014 & - 115.1866 \\\\
- - 0.5151 & - 0.4500 & 0.7923 & 652.2641 \\\\
-\\end{bmatrix}$$
+<img src="media\image12.png" style="width:6.5in;height:4.33681in" alt="A screenshot of a computer Description automatically generated with low confidence" />
 
 **Extrinsic parameters with LM and distortion incorporated:**
 
-$$\\left\\lbrack R\_{35}\|{\\overrightarrow{t}}\_{35} \\right\\rbrack\_{\\text{LM}} = \\begin{bmatrix}
-0.9466 & - 0.0793 & - 0.4513 & - 62.8548 \\\\
- - 0.0659 & 0.9978 & - 0.0663 & - 92.6590 \\\\
- - 0.4534 & - 0.0496 & 0.9471 & 632.2045 \\\\
-\\end{bmatrix}$$
+<img src="media\image13.png" style="width:5.6875in;height:1.29167in" alt="Table Description automatically generated" />
 
 **Camera pose for fixed imaged with measured ground-truth :**
 
@@ -157,17 +101,7 @@ The \[*R*<sub>11</sub>\|*t⃗*<sub>11</sub>\]for the fixed image 11 with
 LLS and LM are given below. It can be seen that R is approximately
 identity matrix with t representing the translation.
 
-$$\\left\\lbrack R\_{11}\|{\\overrightarrow{t}}\_{11} \\right\\rbrack\_{\\text{LLS}} = \\begin{bmatrix}
-0.9994 & - 0.0072 & 0.0342 & 19.5082 \\\\
-0.0088 & 0.9989 & - 0.0469 & - 170.1235 \\\\
- - 0.0338 & 0.0472 & 0.9983 & 633.9512 \\\\
-\\end{bmatrix}$$
-
-$$\\left\\lbrack R\_{11}\|{\\overrightarrow{t}}\_{11} \\right\\rbrack\_{\\text{LM}} = \\begin{bmatrix}
-0.9 & - 0.0082 & 0.0418 & - 78.9214 \\\\
-0.0084 & 0.9999 & - 0.0568 & - 95.9668 \\\\
- - 0.0418 & 0.0569 & 0.9998 & 630.0702 \\\\
-\\end{bmatrix}$$
+<img src="media\image14.png" style="width:5.6875in;height:1.77083in" alt="Table Description automatically generated" />
 
 **References:**
 
