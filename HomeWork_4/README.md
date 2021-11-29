@@ -1,6 +1,8 @@
 **Extraction of Interest Points and Establishing Correspondences using
 Harris Corner Detector and SIFT Operator**
 
+
+
 **1. Introduction:**
 
 In this homework we used a pair of images taken from the same scene but
@@ -12,7 +14,9 @@ normalized cross correlation (NCC). For the SIFT features, we performed
 brute force correspondences. Details of the methods can be seen in the
 attached pdf report.
 
+
 **Results:**
+
 
 1.  **Harris Corner:**
 
@@ -25,6 +29,8 @@ noise\_window = 15.**
 
 **Harris corners from images in pair 1 at sigma = 2.4; k = 0.04,
 noise\_window = 15.**
+
+
 
 2.  **Correspondence among Harris corners using SSD:**
 
