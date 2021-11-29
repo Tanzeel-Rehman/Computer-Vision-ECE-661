@@ -1,7 +1,4 @@
-**Extraction of Interest Points and Establishing Correspondences using
-Harris Corner Detector and SIFT Operator**
-
-
+**Extraction of Interest Points and Establishing Correspondences using Harris Corner Detector and SIFT Operator**
 
 **1. Introduction:**
 
